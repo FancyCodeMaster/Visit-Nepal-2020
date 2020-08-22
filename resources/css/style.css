@@ -69,7 +69,7 @@ section {
     margin-right: 10px;
 }
 
-.btn-full:link , .btn-full:visited {
+.btn-full:link , .btn-full:visited , input[type=submit]{
     border: 1px solid #e67e22;
     background-color: #e67e22;
     color: #fff;
@@ -78,7 +78,7 @@ section {
     transition: background-color 0.5s , color 0.5s;
 }
 
-.btn-full:hover , .btn-full:active {
+.btn-full:hover , .btn-full:active , input[type=submit]:hover , input[type=submit]:active {
     background-color: #ce6f1b;
 }
 
@@ -95,6 +95,13 @@ section {
 .btn-ghost:active , .btn-ghost:hover {
     background-color: #e67e22;
     color: #fff;
+}
+
+/*-------ICONS-----*/
+
+.icon-small {
+    color: #e67e22;
+    margin-right: 15px;
 }
 
 
@@ -274,7 +281,16 @@ header {
 
 .custo-box blockquote cite {
     display: block;
-    margin-top: 8px;
+    margin-top: 15px;
+}
+
+.custo-box blockquote cite img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
 }
 
 
@@ -288,5 +304,68 @@ header {
 
 .price-box {
     background-color: #fff;
+}
+
+.price-box div {
+    margin-bottom: 20px;
+}
+
+.first {
+    border-bottom: 1px solid #ebebeb;
     padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.first h3 {
+    margin-bottom: 20px;
+}
+
+.first span {
+    font-size: 300%;
+}
+
+.first p {
+    color: #e67e22;
+}
+
+.first p:last-of-type {
+    margin-top: 20px;
+    color: #000;
+}
+
+.second {
+    border-bottom: 1px solid #ebebeb;
+    padding: 20px;
+}
+
+.second div {    
+    word-spacing: 4px;
+}
+
+.third {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*-------------------------------*/
+/*-------CONTACT-FORM-----*/
+/*-------------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text] , input[type=email] ,  select , textarea {
+    width: 60%;
+    padding: 5px;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea {
+    height: 100px;
 }
