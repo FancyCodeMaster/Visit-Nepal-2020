@@ -1,0 +1,174 @@
+
+/*from 1024px to 1200 px*/
+@media only screen and (max-width : 1200px) {
+    /*.section-features {
+        padding: 2%;
+    }*/
+    
+}
+
+
+/*for smaller tabs to Tablets aligned horizontally*/
+@media only screen and (max-width : 1023px) {
+    
+    body , html {
+        font-size: 18px;
+    }
+    
+    .logo {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    
+    .main-nav {
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+    
+    .main-nav li {
+        margin-right: 30px;
+    }
+    
+    .main-nav li a:link , .main-nav li a:visited {
+        padding-bottom: 10px;
+        font-size: 90%;
+    }
+    
+    h1 {
+        font-size: 160%;
+        margin-bottom: 50px;
+    }
+    
+    h2 {
+        font-size: 135%;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+    
+    .row {
+        width: 90%;
+    }
+    
+    .feature-box {
+        margin-top: 40px;
+        padding: 10px;
+    }
+    
+    .image-container img {
+        height: 180px;
+    }
+    
+    .contact-form {
+        width: 80%;
+    }
+    
+    input[type=text] , input[type=email] ,  select , textarea {
+        width: 80%;
+    }
+}
+
+
+
+/*for  smaller phones to Tablets aligned vertically*/
+@media only screen and (max-width : 767px) {
+  
+    h1 {
+        font-size: 140%;
+    }
+    
+    h2 {
+        font-size: 118%;
+    }
+    
+    h3 {
+        font-size: 90%;
+    }
+    
+    .para {
+        margin-top: -15px;
+    }
+    
+    .feature-box {
+        margin-top: 20px;
+    }
+
+    .feature-box p{
+        line-height: 130%;
+        word-spacing: 2px;
+        margin-top: 10px;
+    }
+    
+    .image-container img {
+        height: 130px;
+    }
+    
+    .dest-box {
+        margin-top: -20px;
+    }
+    
+    .custo-box {
+        margin-top: 20px;
+    }
+    
+    .price-box {
+        margin-top: -15px;
+    }
+    
+    .price-box div {
+        font-size: 90%;
+    }
+    
+    .first , .second , .third {
+        padding: 10px;
+    }
+    
+    .second div {    
+        word-spacing: 3px;
+    }
+    
+    .icon-small {
+        margin-right: 10px;
+    }
+    
+    .contact-form {
+        width: 100%;
+        margin-top: -20px;
+    }
+    
+    input[type=text] , input[type=email] ,  select , textarea {
+        width: 100%;
+    }
+    
+    .contact-form .row div {
+        margin-bottom: 15px;
+    }
+    
+    .footer-nav li {
+        margin-right: 15px;
+    }
+    
+    .footer-nav li a:link , .footer-nav li a:visited {
+        font-size: 90%;
+    }
+    
+    .social-links li:last-of-type {
+        margin-right: -5px;  
+    }
+    
+    .footer-para {
+        font-size: 90%;
+    }
+    
+}
+
+
+
+/*for smaller phones*/
+@media only screen and (max-width: 500px) {
+    
+    .col {
+        width: 100%;
+    }
+}
