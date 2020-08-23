@@ -170,5 +170,139 @@
     
     .col {
         width: 100%;
+        padding-bottom: 10px;
     }
+    
+    section {
+        padding: 30px 0;
+    }
+    
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 120%;
+    }
+    
+    .heading-box {
+        top: 30%;
+        left: 12%;
+    }
+    
+    .heading-box h1 {
+        margin-bottom: 60px;
+    }
+    
+    h2 {
+        font-size: 105%;
+    }
+    
+    h3 {
+        font-size: 80%;
+    }
+    
+    .para {
+        margin-bottom: 15px;
+    }
+    
+    .feature-box {
+        margin-top: -5px;
+    }
+
+    .feature-box p{
+        line-height: 125%;
+        word-spacing: 3px;
+        margin-top: 10px;
+    }
+    
+    .image-container img {
+        height: 80px;
+    }
+    
+    .dest-box {
+        font-size: 90%;
+        margin-top: 1px;
+    }
+    
+    .dest-box img {
+        width: 80%;
+        margin-left: 10%;
+        height: 200px;
+    }
+    
+    .dest-box h3 {
+        text-align: center;
+    }
+    
+    .dest-details-box {
+        margin-top: -20px;
+        text-align: center;
+    }
+    
+    .city-feature {
+        margin-bottom: -5px;
+    }
+    
+    .dest-details-box div {
+        margin-top: 5px;
+    }
+    
+    .custo-box {
+        margin-bottom: 20px;
+    }
+    
+    .custo-box blockquote cite {
+        margin-top: 5px;
+    }
+    
+    .first , .second , .third {
+        padding: 5px;
+    }
+    
+    .price-box {
+        margin-bottom: 30px;
+    }
+    
+    .price-box:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    .contact-form .row div {
+        margin-bottom: 8px;
+    }
+    
+    .space {
+        display: none;
+    }
+    
+    input[type=submit] {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    
+    .footer-nav {
+        text-align: center;
+        float: none;
+    }
+    
+    .social-links {
+        text-align: center;
+        float: none;
+    }
+    
+    .footer-nav li {
+        margin-right: 30px;
+    }
+    
+    .social-links li {
+        margin-right: 60px;
+    }
+    
+    
 }
