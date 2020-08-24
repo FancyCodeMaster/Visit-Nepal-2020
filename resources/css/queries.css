@@ -7,6 +7,38 @@
     
 }
 
+/* from 1024px to 1120px*/
+@media only screen and (max-width : 1120px) {
+    
+    .row {
+        width: 90%;
+    }
+    
+    .main-nav {
+        /*margin-right: 40px;*/
+    }
+    
+    .logo {
+        margin-left: 20px;
+    }
+    
+    .second {
+        padding: 15px;
+    }
+    
+    .second div {
+        font-size: 90%;
+    }
+    
+    input[type=text] , input[type=email] ,  select , textarea {
+        width: 100%;
+    }
+    
+    .contact-form .row .col {
+        margin-bottom: 20px;
+    }
+}
+
 
 /*for smaller tabs to Tablets aligned horizontally*/
 /* from 768px to 1023px*/
