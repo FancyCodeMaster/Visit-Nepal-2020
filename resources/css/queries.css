@@ -260,7 +260,10 @@
 /*for smaller phones*/
 @media only screen and (max-width: 480px) {
     
-    
+    .heading-box a{
+        padding: 5px 8px;
+        font-size: 80%;
+    }
     
     
 }
